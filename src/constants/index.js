@@ -8,21 +8,31 @@ import {
   html,
   css,
   reactjs,
+  signLang,
   redux,
   tailwind,
   nodejs,
+  interviewAi,
   mongodb,
   git,
   figma,
   docker,
   meta,
+  amazon,
   starbucks,
   tesla,
   shopify,
   carrent,
   jobit,
+  brane,
   tripguide,
   threejs,
+  java,
+  python,
+  taskManager,
+  sql,
+  firebase,
+  selenium,
 } from "../assets";
 
 export const navLinks = [
@@ -42,24 +52,30 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Development Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Quality Assurance Engineer",
     icon: mobile,
   },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+
 ];
 
 const technologies = [
+  {
+    name:"Java",
+    icon: java
+  },
+  {
+    name:"Python",
+    icon:python
+  },
+  
+  {
+    name:"Reactjs",
+    icon: reactjs
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -76,14 +92,12 @@ const technologies = [
     name: "TypeScript",
     icon: typescript,
   },
-  {
-    name: "React JS",
-    icon: reactjs,
+
+  {    
+    name:"Sql",
+    icon:sql
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -93,20 +107,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name:"selenium",
+    icon : selenium
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -116,57 +122,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Quality Assurance Intern",
+    company_name: "Amazon",
+    icon: amazon,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2023 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built an internal testing tool with Java Spring Boot and AWS to automate account suspension, cutting manual effort by 90%",
+      "Led QA for 3 Tier-1 projects in Amazon Ads, managing test planning, automation, and defect triage across 20+ marketplaces",
+      "Designed custom test strategies using Public APIs, improving test coverage by 30% and reducing launch risks.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Quality Assurance Intern",
+    company_name: "Brane Enterprises",
+    icon: brane,
+    iconBg: "#000000",
+    date: "Oct 2021 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and executed test cases across 15+ products, reducing bug rates by 30%.",
+      "Tested 25+ REST APIs with Java and Spring Boot; automated key scenarios using Postman, Cypress, and Selenium, cutting manual effort by 40%.",
+      "Improved defect resolution speed by 35% through clear RCA and effective collaboration using Jira and Agile practices.",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  },  
 ];
 
 const testimonials = [
@@ -198,16 +176,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI-Powered Job Interview Platform ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built a full-stack voice-based interview simulator using Vapi AI, Gemini, Firebase, and Next.js. Offers real-time dynamic questions, intelligent feedback, and a seamless, high-performance user experience across all devices",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
@@ -215,49 +193,52 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: interviewAi,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Task Manangement System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Designed a scalable microservices-based platform with Spring Boot and React, enabling secure, role-based task operations across departments. Integrated Eureka and OpenFeign for seamless service discovery, ensuring 99.9% uptime and efficient multi-team collaboration.",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Spring Boot",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MySql",
         color: "pink-text-gradient",
       },
+      {
+        name: "React Js",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
+    image: taskManager,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "American Sign Language Detection",
+    description:"Built a high-accuracy deep learning pipeline using PyTorch and OpenCV to recognize American Sign Language with 98% precision. Deployed a real-time web app via Flask and Streamlit, enhancing robustness by 12% through custom data augmentation techniques.",
     tags: [
       {
-        name: "nextjs",
+        name: "PyTorch",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Flask",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: signLang,
     source_code_link: "https://github.com/",
   },
 ];
