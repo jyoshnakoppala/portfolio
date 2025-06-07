@@ -9,6 +9,12 @@ import taskManager from "./task-management.jpg";
 import interviewAi from "./interview-ai.png";
 import close from "./close.svg";
 import signLang from "./signlang.png";
+import jyoshnaImg from "./jyoshna_image.jpg";
+import link from "./link.png";
+
+import aws from "./certificates/aws.png"
+import googleCloud from "./certificates/google_cloud.jpeg";
+import pythonDsa from "./certificates/python_dsa.jpeg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -51,6 +57,7 @@ export {
   creator,
   mobile,
   web,
+  jyoshnaImg,
   github,
   menu,
   close,
@@ -78,5 +85,9 @@ export {
   signLang,
   brane,
   tripguide,
-  taskManager
+  taskManager,
+  aws,
+  link,
+  googleCloud,
+  pythonDsa
 };

@@ -33,7 +33,11 @@ import {
   sql,
   firebase,
   selenium,
+  aws,
+  googleCloud,
+  pythonDsa
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -107,15 +111,15 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name:"selenium",
+    name:"Selenium",
     icon : selenium
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
 ];
@@ -243,4 +247,37 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const certificates = [
+  {
+    name: "AWS Certified Developer – Associate ",
+    description:
+      "Validated proficiency in developing, deploying, and debugging cloud-based applications using AWS. Demonstrates strong understanding of core AWS services, best practices, and cloud-native development.",
+    tags: [
+      
+    ],
+    image: aws,
+    source_code_link: "https://www.credly.com/badges/8ba62525-7ffc-4acc-9610-a6a5c13a0bde/linked_in_profile",
+  },
+  {
+    name: "Python Data Structures",
+    description:
+      "Explored core data structure concepts in Python, emphasizing practical implementation and problem-solving. Gained proficiency in manipulating complex data types to build efficient and readable programs.",
+    tags: [
+     
+    ],
+    image: pythonDsa,
+    source_code_link: "https://www.coursera.org/account/accomplishments/verify/GB3SFPPQNHQK",
+  },
+  {
+    name: "Architecting with Google Compute Engine",
+    description:"Gained hands-on experience in designing and deploying scalable, secure, and reliable infrastructure on Google Cloud. Covered networking, compute services, storage, and best practices for cloud architecture.",
+    tags: [
+      
+    ],
+    image: googleCloud,
+    source_code_link: "https://www.coursera.org/account/accomplishments/specialization/EPDKKE766LN7",
+  },
+];
+
+
+export { services, technologies, experiences, testimonials, projects, certificates };

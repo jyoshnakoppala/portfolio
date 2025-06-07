@@ -47,7 +47,7 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden md:flex flex-row gap-10 items-center justify-center'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -59,9 +59,32 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+            <a
+          download
+          href="/resume/Jyoshna_koppala_resume.pdf"
+          className="cursor-pointer flex justify-between items-center  bg-white text-black px-3 py-2 rounded-md  tracking-wider shadow-xl duration-500  w-[210px] contact-btn hover:bg-black hover:text-white"
+        >
+          Download Resume
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="2"
+            stroke="currentColor"
+            className="w-5 h-5 animate-bounce"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+            />
+          </svg>
+        </a>
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+       
+
+        <div className='md:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
             alt='menu'
@@ -89,8 +112,30 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+                     <a
+          download
+          href="/resume/Jyoshna_koppala_resume.pdf"
+          className="cursor-pointer flex justify-between items-center  bg-white text-black px-3 py-2 rounded-md  tracking-wider shadow-xl duration-500  w-[210px] contact-btn hover:bg-black hover:text-white"
+        >
+          Download Resume
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="2"
+            stroke="currentColor"
+            className="w-5 h-5 animate-bounce"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+            />
+          </svg>
+        </a>
             </ul>
           </div>
+         
         </div>
       </div>
     </nav>
