@@ -11,6 +11,10 @@ import close from "./close.svg";
 import signLang from "./signlang.png";
 import jyoshnaImg from "./jyoshna_image.jpg";
 import link from "./link.png";
+import school from "./school.png";
+import gmail from "./gmail.jpg";
+import linkedin from "./linkedin.png";
+import springBoot from "./springboot.png";
 
 import aws from "./certificates/aws.png"
 import googleCloud from "./certificates/google_cloud.jpeg";
@@ -18,6 +22,7 @@ import pythonDsa from "./certificates/python_dsa.jpeg";
 import ai from "./certificates/ai.jpeg";
 import pythonEverybody from "./certificates/python_for_everybody.jpeg";
 import pythonWeb from "./certificates/python_web.jpeg";
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -44,6 +49,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import amazon from './company/amazon.png';
 import brane from './company/brane.jpg';
+import awsIcon from "./company/aws-icon.png";
+import jangoIcon from "./company/jango.jpeg";
+import flaskIcon from "./company/flask-icon.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -95,5 +103,12 @@ export {
   pythonDsa,
   pythonEverybody,
   ai,
-  pythonWeb
+  pythonWeb,
+  awsIcon,
+  jangoIcon,
+  flaskIcon,
+  school,
+  gmail,
+  linkedin,
+  springBoot
 };

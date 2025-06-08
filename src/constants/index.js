@@ -38,7 +38,13 @@ import {
   pythonDsa,
   pythonEverybody,
   ai,
-  pythonWeb
+  pythonWeb,
+  awsIcon,
+  flaskIcon,
+  jangoIcon,
+  school,
+  springBoot
+
 
 } from "../assets";
 
@@ -64,10 +70,14 @@ const services = [
     icon: web,
   },
   {
+    title: "Full Stack Developer",
+    icon: web,
+  },
+  {
     title: "Quality Assurance Engineer",
     icon: mobile,
   },
-
+  
 ];
 
 const technologies = [
@@ -85,12 +95,13 @@ const technologies = [
     icon: reactjs
   },
   {
-    name: "HTML 5",
-    icon: html,
+    name: "AWS",
+    icon: awsIcon,
   },
-  {
-    name: "CSS 3",
-    icon: css,
+ 
+   {
+    name: "Django",
+    icon: jangoIcon,
   },
   {
     name: "JavaScript",
@@ -106,17 +117,17 @@ const technologies = [
     icon:sql
   },
   
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
+   {
+    name: "Flask",
+    icon: flaskIcon,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name:"Selenium",
-    icon : selenium
+    name:"Spring Boot",
+    icon : springBoot
   },
   {
     name: "Git",
@@ -128,7 +139,32 @@ const technologies = [
   },
 ];
 
-const experiences = [
+const education = [
+  {
+    title: "State University of New York at Buffalo ",
+    company_name: "Masters in Computer Science and Engineering",
+    icon: school,
+    place:"Buffalo, NY",
+    iconBg: "#000000",
+    date: "Jan 2024 - May 2025",
+    points: [
+      
+    ],
+  },
+  {
+    title: "Dayananda Sagar College of Engineering",
+    company_name: "Bachelor of Engineering in Computer Science",
+    icon: school,
+    place:"Bangalore, KA, IN",
+    iconBg: "#000000",
+    date: "Aug 2019 - July 2023",
+    points: [
+     
+    ],
+  },  
+];
+
+const experience = [
   {
     title: "Quality Assurance Intern",
     company_name: "Amazon",
@@ -281,34 +317,8 @@ const certificates = [
     image: pythonDsa,
     source_code_link: "https://www.coursera.org/account/accomplishments/verify/GB3SFPPQNHQK",
   },
-  {
-    name: "Using Python to Access Web Data",
-    description:"Demonstrated the ability to extract and process web data using Python. Gained hands-on skills in web scraping, regular expressions, XML/JSON parsing, and understanding HTTP protocols to access and manipulate APIs and web content effectively.",
-    tags: [
-      
-    ],
-    image: pythonWeb,
-    source_code_link: "https://www.coursera.org/account/accomplishments/specialization/EPDKKE766LN7",
-  },
-  {
-    name: "Programming for Everybody",
-    description:"Built a strong foundation in Python programming through hands-on exercises, focusing on variables, loops, conditionals, and functions. Gained practical experience in writing Python scripts and understanding core programming constructs.",
-    tags: [
-      
-    ],
-    image: pythonEverybody,
-    source_code_link: "https://www.coursera.org/account/accomplishments/specialization/EPDKKE766LN7",
-  },
-  {
-    name: "AI For Everyone",
-    description:"Gained foundational knowledge in AI and ML, including neural networks, ethics, and business impact. Developed insight into strategic implementation and responsible AI adoption.",
-    tags: [
-      
-    ],
-    image: ai,
-    source_code_link: "https://www.coursera.org/account/accomplishments/specialization/EPDKKE766LN7",
-  },
+
 ];
 
 
-export { services, technologies, experiences, testimonials, projects, certificates };
+export { services, technologies, experience,education, testimonials, projects, certificates };
