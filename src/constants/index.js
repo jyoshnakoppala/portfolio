@@ -35,7 +35,11 @@ import {
   selenium,
   aws,
   googleCloud,
-  pythonDsa
+  pythonDsa,
+  pythonEverybody,
+  ai,
+  pythonWeb
+
 } from "../assets";
 
 
@@ -132,21 +136,21 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2023 - June 2023",
     points: [
-      "Built an internal testing tool with Java Spring Boot and AWS to automate account suspension, cutting manual effort by 90%",
-      "Led QA for 3 Tier-1 projects in Amazon Ads, managing test planning, automation, and defect triage across 20+ marketplaces",
-      "Designed custom test strategies using Public APIs, improving test coverage by 30% and reducing launch risks.",
+      "Led QA strategy for Amazon’s advertising platform across 3 Tier-1 projects, ensuring end-to-end quality from sprint planning to release, coordinating with 4+ cross-functional teams to deliver features across 20+ marketplaces.",
+      "Contributed to the design and development of a scalable automation tool using native AWS services to suspend expired accounts, eliminating 90% of manual effort and enhancing ad platform compliance.",
+      "Enhanced CI/CD reliability and accelerated delivery by developing unit/integration tests, resolving cross-marketplace blockers, and unblocking 60% of Slideshow Ads use cases through strategic API testing.",
     ],
   },
   {
-    title: "Quality Assurance Intern",
+    title: "Software Engineer Intern",
     company_name: "Brane Enterprises",
     icon: brane,
     iconBg: "#000000",
     date: "Oct 2021 - June 2022",
     points: [
-      "Designed and executed test cases across 15+ products, reducing bug rates by 30%.",
-      "Tested 25+ REST APIs with Java and Spring Boot; automated key scenarios using Postman, Cypress, and Selenium, cutting manual effort by 40%.",
-      "Improved defect resolution speed by 35% through clear RCA and effective collaboration using Jira and Agile practices.",
+      "Led the development of key HRMS modules using Entity Query Language (EQL) and Apache Superset, enabling real-time dashboards and improving employee engagement by 20% through enhanced performance tracking.",
+      "Engineered scalable microservices and hierarchical approval workflows with Java Spring Boot, REST APIs, and core OOP principles, streamlining organizational decision-making and cutting response times by 30%.",
+      "Enhanced test coverage and user experience by contributing to test automation with Postman and Cypress and resolving 20+ frontend issues in AngularJS and JavaScript, reducing manual effort by 40%.",
     ],
   },  
 ];
@@ -193,7 +197,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -259,6 +263,15 @@ const certificates = [
     source_code_link: "https://www.credly.com/badges/8ba62525-7ffc-4acc-9610-a6a5c13a0bde/linked_in_profile",
   },
   {
+    name: "Architecting with Google Compute Engine",
+    description:"Gained hands-on experience in designing and deploying scalable, secure, and reliable infrastructure on Google Cloud. Covered networking, compute services, storage, and best practices for cloud architecture.",
+    tags: [
+      
+    ],
+    image: googleCloud,
+    source_code_link: "https://www.coursera.org/account/accomplishments/specialization/EPDKKE766LN7",
+  },
+  {
     name: "Python Data Structures",
     description:
       "Explored core data structure concepts in Python, emphasizing practical implementation and problem-solving. Gained proficiency in manipulating complex data types to build efficient and readable programs.",
@@ -269,12 +282,30 @@ const certificates = [
     source_code_link: "https://www.coursera.org/account/accomplishments/verify/GB3SFPPQNHQK",
   },
   {
-    name: "Architecting with Google Compute Engine",
-    description:"Gained hands-on experience in designing and deploying scalable, secure, and reliable infrastructure on Google Cloud. Covered networking, compute services, storage, and best practices for cloud architecture.",
+    name: "Using Python to Access Web Data",
+    description:"Demonstrated the ability to extract and process web data using Python. Gained hands-on skills in web scraping, regular expressions, XML/JSON parsing, and understanding HTTP protocols to access and manipulate APIs and web content effectively.",
     tags: [
       
     ],
-    image: googleCloud,
+    image: pythonWeb,
+    source_code_link: "https://www.coursera.org/account/accomplishments/specialization/EPDKKE766LN7",
+  },
+  {
+    name: "Programming for Everybody",
+    description:"Built a strong foundation in Python programming through hands-on exercises, focusing on variables, loops, conditionals, and functions. Gained practical experience in writing Python scripts and understanding core programming constructs.",
+    tags: [
+      
+    ],
+    image: pythonEverybody,
+    source_code_link: "https://www.coursera.org/account/accomplishments/specialization/EPDKKE766LN7",
+  },
+  {
+    name: "AI For Everyone",
+    description:"Gained foundational knowledge in AI and ML, including neural networks, ethics, and business impact. Developed insight into strategic implementation and responsible AI adoption.",
+    tags: [
+      
+    ],
+    image: ai,
     source_code_link: "https://www.coursera.org/account/accomplishments/specialization/EPDKKE766LN7",
   },
 ];

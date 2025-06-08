@@ -71,7 +71,7 @@ const  Certifications = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText}`}>Certifications.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Certifications</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -79,7 +79,7 @@ const  Certifications = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The following certifications validate my expertise and commitment to continuous learning in my field. Each certification highlights my proficiency in key technologies, methodologies, or industry standards. These credentials demonstrate my dedication to staying updated with the latest advancements and best practices.
+          These certifications reflect my commitment to continuous learning and proficiency in key areas like software engineering, cloud computing, data handling, and AI. They validate both foundational knowledge and hands-on skills, reinforcing my ability to deliver reliable, future-ready solutions.
         </motion.p>
       </div>
 

@@ -15,6 +15,9 @@ import link from "./link.png";
 import aws from "./certificates/aws.png"
 import googleCloud from "./certificates/google_cloud.jpeg";
 import pythonDsa from "./certificates/python_dsa.jpeg";
+import ai from "./certificates/ai.jpeg";
+import pythonEverybody from "./certificates/python_for_everybody.jpeg";
+import pythonWeb from "./certificates/python_web.jpeg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -89,5 +92,8 @@ export {
   aws,
   link,
   googleCloud,
-  pythonDsa
+  pythonDsa,
+  pythonEverybody,
+  ai,
+  pythonWeb
 };
