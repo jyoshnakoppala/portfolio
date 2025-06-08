@@ -5,6 +5,7 @@ import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
+import { github,linkedin,gmail } from "../assets";
 import { slideIn } from "../utils/motion";
 
 //template_vbbg8cn
@@ -37,17 +38,18 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_l3py4o8',
-        'template_vbbg8cn',
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Jyoshna",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "jyoshna@gmail.com",
           message: form.message,
         },
-        'rWv5FQeSMJS7DjqCK'
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
+
       .then(
         () => {
           setLoading(false);
@@ -117,13 +119,27 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-
+          <div className=" flex justify-around w-full">
           <button
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>
+
+            <div className="flex items-center justify-center gap-6">
+              <a href="https://github.com/jyoshnakoppala" target="_blank" rel="noopener noreferrer">
+                <img src={github} alt="GitHub" className="w-10" />
+              </a>
+              <a href="https://www.linkedin.com/in/koppala-jyoshna37a" target="_blank" rel="noopener noreferrer">
+                <img src={linkedin} alt="LinkedIn" className="w-8 h-8" />
+              </a>
+              <a href="mailto:koppalajyoshna0@gmail.com">
+                <img src={gmail} alt="Gmail" className="w-8 h-8 filter" />
+              </a>
+          </div>
+        </div>
+
         </form>
       </motion.div>
 
