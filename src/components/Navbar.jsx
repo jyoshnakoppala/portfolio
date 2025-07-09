@@ -61,7 +61,7 @@ const Navbar = () => {
           ))}
             <a
           download
-          href="/resume/Jyoshna's_Resume.pdf"
+          href="/resume/Jyoshna_Koppala.pdf"
           className="cursor-pointer flex justify-between items-center  bg-white text-black px-3 py-2 rounded-md  tracking-wider shadow-xl duration-500  w-[210px] contact-btn hover:bg-black hover:text-white"
         >
           Download Resume
