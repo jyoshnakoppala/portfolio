@@ -50,15 +50,15 @@ const About = () => {
           className='text-secondary text-[15px] max-w-3xl leading-[28px]'
         >
           <p className='mb-4'>
-          I'm a skilled software developer with strong proficiency in Java, Spring Boot, and React. With a Master’s in Computer Science from SUNY Buffalo and hands-on internship experience, I’ve built scalable, cloud-native applications by designing robust microservices and integrating real-time dashboards.
+          I'm a software developer with 2+ years of experience and a Master's in Computer Science from SUNY Buffalo. I deliver high-quality, scalable solutions by leveraging deep expertise in Java, Spring Boot, and React. With a strong foundation in object-oriented design, data structures, and distributed systems, my technical expertise includes building cloud-native applications, developing dynamic frontends, and managing CI/CD pipelines with AWS services.
           </p>
 
           <p className='mb-4'>
-            Alongside development, I have practical experience in QA engineering designing and executing test strategies for REST APIs and UIs using tools like Selenium, Postman, and Cypress. My contributions have helped reduce manual effort and improve the reliability of high-impact products.
+          My experience extends from designing robust microservices and real-time dashboards to implementing comprehensive QA strategies using tools like Selenium, Postman, and Cypress. This integrated skill set enables me to effectively build and test production-grade systems, directly contributing to reducing manual effort and enhancing the reliability of high-impact products.
           </p>
 
           <p className='mb-4'>
-            I have a solid foundation in object-oriented design, data structures, and distributed systems, with hands-on expertise in REST APIs, CI/CD pipelines, AWS services, deep learning models and full-stack development. My background bridges both development and quality assurance, enabling me to build and test production-grade systems effectively.
+          Passionate about transforming complex problems into efficient, user-friendly applications, I thrive on collaborating with cross-functional teams to achieve technical excellence and solve real-world challenges.
           </p>
 
           <p className='mb-1'>

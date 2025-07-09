@@ -52,6 +52,8 @@ import brane from './company/brane.jpg';
 import awsIcon from "./company/aws-icon.png";
 import jangoIcon from "./company/jango.jpeg";
 import flaskIcon from "./company/flask-icon.png";
+import conceptive from "./company/conceptive.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -110,5 +112,6 @@ export {
   school,
   gmail,
   linkedin,
-  springBoot
+  springBoot,
+  conceptive
 };

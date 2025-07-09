@@ -43,8 +43,8 @@ import {
   flaskIcon,
   jangoIcon,
   school,
-  springBoot
-
+  springBoot,
+  conceptive
 
 } from "../assets";
 
@@ -166,6 +166,18 @@ const education = [
 
 const experience = [
   {
+    title: "Software Engineer",
+    company_name: "Conceptive Consulting",
+    icon: conceptive,
+    iconBg: "#0055A4",
+    date: "July 2023 – Dec 2023",
+    points: [
+      "Developed 15+ Spring Boot APIs and 20+ modular React components using Module Federation, boosting frontend efficiency and backend scalability.",
+      "Designed PostgreSQL schemas for 100+ product attributes and integrated Keycloak for secure role-based access, improving data accuracy and security.",
+      "Streamlined catalog onboarding workflows, reducing onboarding time by 40% and cutting support tickets by 25% through supplier self-service features.",
+    ],
+  },
+  {
     title: "Quality Assurance Engineer",
     company_name: "Amazon",
     icon: amazon,
@@ -189,18 +201,6 @@ const experience = [
       "Enhanced test coverage and user experience by contributing to test automation with Postman and Cypress and resolving 20+ frontend issues in AngularJS and JavaScript, reducing manual effort by 40%.",
     ],
   },  
-  {
-    title: "Software Engineer",
-    company_name: "Conceptive Consulting",
-    icon: conceptive,
-    iconBg: "#0055A4",
-    date: "July 2023 – Dec 2023",
-    points: [
-      "Developed 15+ Spring Boot APIs and 20+ modular React components using Module Federation, boosting frontend efficiency and backend scalability.",
-      "Designed PostgreSQL schemas for 100+ product attributes and integrated Keycloak for secure role-based access, improving data accuracy and security.",
-      "Streamlined catalog onboarding workflows, reducing onboarding time by 40% and cutting support tickets by 25% through supplier self-service features.",
-    ],
-  }
 ];
 
 const testimonials = [
